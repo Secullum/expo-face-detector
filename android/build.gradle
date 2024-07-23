@@ -68,12 +68,6 @@ android {
     versionName "12.6.0"
   }
 
-  publishing {
-    singleVariant("release") {
-      withSourcesJar()
-    }
-  }
-
   lintOptions {
     abortOnError false
   }
