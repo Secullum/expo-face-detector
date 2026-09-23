@@ -4,7 +4,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.exifinterface.media.ExifInterface
 
-import expo.modules.interfaces.facedetector.FaceDetectorInterface
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectorInterface
 
 import java.util.ArrayList
 import java.util.HashMap
