@@ -16,11 +16,11 @@ import com.google.mlkit.vision.face.FaceDetectorOptions
 
 import expo.modules.facedetector.FaceDetectorUtils.serializeFace
 import expo.modules.facedetector.FaceDetectorUtils.rotateFaceX
-import expo.modules.interfaces.facedetector.FaceDetectorInterface
-import expo.modules.interfaces.facedetector.FacesDetectionCompleted
-import expo.modules.interfaces.facedetector.FaceDetectionError
-import expo.modules.interfaces.facedetector.FaceDetectionSkipped
-import expo.modules.interfaces.facedetector.FaceDetectionUnspecifiedError
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectorInterface
+import com.secullum.expo.modules.interfaces.facedetector.FacesDetectionCompleted
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectionError
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectionSkipped
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectionUnspecifiedError
 
 import java.io.IOException
 import java.util.ArrayList

@@ -4,8 +4,8 @@ import android.content.Context
 import android.os.Bundle
 import expo.modules.facedetector.tasks.FileFaceDetectionCompletionListener
 import expo.modules.facedetector.tasks.FileFaceDetectionTask
-import expo.modules.interfaces.facedetector.FaceDetectorInterface
-import expo.modules.interfaces.facedetector.FaceDetectorProviderInterface
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectorInterface
+import com.secullum.expo.modules.interfaces.facedetector.FaceDetectorProviderInterface
 import expo.modules.kotlin.Promise
 import expo.modules.kotlin.exception.Exceptions
 import expo.modules.kotlin.modules.Module
