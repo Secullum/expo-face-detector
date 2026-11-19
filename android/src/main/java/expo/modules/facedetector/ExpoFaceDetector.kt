@@ -90,7 +90,8 @@ class ExpoFaceDetector(private val context: Context) : FaceDetectorInterface {
     error: FaceDetectionError,
     skipped: FaceDetectionSkipped
   ) {
-    if (imageData.isEmpty() || width <= 0 || height <= 0) {
+    val expectedSize = width * height * 3 / 2
+    if (imageData.isEmpty() || width <= 0 || height <= 0 || imageData.size != expectedSize) {
       skipped.onSkipped("Skipped frame due to invalid data.")
       return
     }
